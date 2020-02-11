@@ -1,0 +1,32 @@
+body{
+    background-color: #f4f4f4 !important;
+}
+
+.remove{
+    color: Red;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+ul li{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+ul{
+   list-style-type: none;
+}
+
+.filter{
+    display: none;
+}

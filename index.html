@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-lg-6">
+        <h1>Todo List</h1>
+        <form class="additems">
+        <input type="text" class="form-control item" name="items">
+        <input type="submit" value="Add item" class="btn btn-danger mt-2">
+        </form>
+    </div>
+    <div class="col-lg-6">
+        <form class="search">
+            <label>Search item</label>
+            <input class="form-control mb-4 p-2" type="text" name="search" placeholder="Search...">
+        </form>
+        <ul class="itemlist">
+            <li>Item 1 <span class="remove">X</span></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+
+
+
+<script src="script.js"></script> 
+</body>
+</html>
